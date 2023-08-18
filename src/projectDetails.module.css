@@ -9,7 +9,7 @@
   background-image: url('./assets/imgs/edited/fithub_intro_background.webp'),
     url('./assets/imgs/edited/homepage_photo-min.jpg');
   background-repeat: no-repeat;
-  background-position: left, top left;
+  background-position: left center, top left;
   background-size: 165%;
   padding: 25px;
   background-color: #c06d06;
