@@ -1,0 +1,221 @@
+.introsection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 25px;
+  background-image: url('/src/assets/imgs/edited/intro_background_img.webp');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-color: whitesmoke;
+}
+
+.introtext {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.intropic {
+  width: 65%;
+}
+
+.ctabtns {
+  gap: 14px;
+}
+
+.ctabtn1 {
+  background-color: #f15a29;
+  margin-right: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.ctabtn1:hover {
+  background-color: #1c75bc;
+  transition: 0.2s;
+}
+
+.ctabtn2 {
+  color: #1c75bc;
+  border: solid 0.5px #1c75bc;
+  margin-right: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 600;
+}
+
+.projectsection {
+  margin-top: 45px;
+  padding: 25px;
+  background-color: whitesmoke;
+}
+
+.projecttitle {
+  text-align: center;
+  font-size: 80px;
+}
+
+.projectLinks {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 12px;
+  gap: 35px;
+}
+
+.project {
+  width: 33%;
+}
+
+.projectimg {
+  height: 450px;
+}
+
+.projectimg:hover {
+  height: 470px;
+}
+
+.projectimg:hover {
+  transition: 0.2s;
+}
+
+.contactsection {
+  display: flex;
+
+  align-items: center;
+  gap: 12px;
+  margin-top: 45px;
+  padding: 25px;
+  background-image: url('/src/assets/imgs/edited/contact_background.webp');
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  background-position: -32vh;
+  background-size: 50%;
+}
+
+.contacttext {
+  width: 35%;
+}
+
+.contactheading {
+  margin-bottom: 12px;
+}
+
+.contactpic {
+  width: 65%;
+}
+
+.contactbutton {
+  margin-top: 16px;
+
+  margin-right: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 600;
+
+  background-color: #1c75bc;
+}
+
+.contactbutton:hover {
+  background-color: #f15a29;
+  transition: 0.2s;
+}
+
+.email {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/*----MOBILE-------*/
+@media screen and (max-width: 375px) {
+  .introsection {
+    flex-direction: column-reverse;
+
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 75%;
+    padding: 12px;
+  }
+
+  .introtext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .introheading {
+    font-size: 26px;
+  }
+
+  .introdescription {
+    font-size: 14px;
+  }
+
+  .intropic {
+    width: 100%;
+    margin-top: 56px;
+  }
+
+  .introimg {
+    width: 100%;
+  }
+
+  .projectsection {
+    margin-top: 45px;
+    padding: 16px;
+    margin-top: 0px;
+  }
+
+  .projectLinks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projecttitle {
+    font-size: 46px;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .projectimg {
+    height: 300px;
+  }
+
+  .projectimg:hover {
+    height: 325px;
+  }
+
+  .contactsection {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100%;
+    background-image: none;
+    margin-top: 0px;
+  }
+
+  .contacttext {
+    width: 100%;
+  }
+
+  .contactheading {
+    font-size: 45px;
+  }
+
+  .contactdescription {
+    font-size: 14px;
+  }
+
+  .contactpic {
+    width: 100%;
+  }
+  .contactimg {
+    width: 100%;
+  }
+}
