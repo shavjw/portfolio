@@ -21,8 +21,9 @@ function ProjectDetail() {
           <Link to="https://fithubapp.netlify.app">
             <button className={classes.projectctabtn}> View App</button>
           </Link>
-
-          <button className={classes.projectctabtn}> GITHUB</button>
+          <Link to="https://github.com/shavjw/fithub">
+            <button className={classes.projectctabtn}> GITHUB</button>
+          </Link>
         </div>
 
         <div className={classes.projectinfopic}></div>
