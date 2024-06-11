@@ -1,11 +1,9 @@
 import classes from './projectDetails4.module.css';
-
 import PROJECTINFOPIC from './assets/imgs/edited/about_us_pic.webp';
 import PROJECTINFOPIC2 from './assets/imgs/edited/about_me_pic.webp';
 import PROJECTINFOPIC3 from './assets/imgs/edited/work_item_2.webp';
 import { Link } from 'react-router-dom';
 
-//TORONTO RAPTORSGEAR SHOP
 function ProjectDetail3() {
   return (
     <>
