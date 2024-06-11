@@ -8,6 +8,7 @@ import ProjectDetail from './projectDetails';
 import AboutMe from './components/about';
 import ProjectDetail2 from './projectDetails2';
 import ProjectDetail3 from './projectDetails3';
+import ProjectDetail4 from './projectDetails4';
 
 const router = createBrowserRouter([
   {
@@ -23,16 +24,20 @@ const router = createBrowserRouter([
         element: <AboutMe />,
       },
       {
-        path: '/projectdetail',
+        path: '/fithub',
         element: <ProjectDetail />,
       },
       {
-        path: '/projectdetail2',
+        path: '/digiadgenda',
         element: <ProjectDetail2 />,
       },
       {
-        path: '/projectdetail3',
+        path: '/museshop',
         element: <ProjectDetail3 />,
+      },
+      {
+        path: '/rockarthub',
+        element: <ProjectDetail4 />,
       },
     ],
   },

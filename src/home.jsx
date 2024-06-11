@@ -2,16 +2,19 @@ import { Link } from 'react-router-dom';
 
 import classes from './home.module.css';
 import INTROPIC from './assets/imgs/edited/intro_pic_2.webp';
-import WORKIMG1 from './assets/imgs/edited/work_img_1.webp';
-import WORKIMG2 from './assets/imgs/edited/work_img_2.webp';
-import WORKIMG3 from './assets/imgs/edited/work_img_3.webp';
+import PROJECTIMG1 from './assets/imgs/edited/work_img_1.webp';
+import PROJECTIMG2 from './assets/imgs/edited/work_img_2.webp';
+import PROJECTIMG3 from './assets/imgs/edited/work_img_4.webp';
+import PROJECTIMG4 from './assets/imgs/edited/work_img_9.png';
+
 import CONTACTPIC from './assets/imgs/edited/contact_pic.webp';
 
 function Home() {
   const ProjectLinks = [
-    { id: 1, src: WORKIMG1, path: '/projectdetail' },
-    { id: 2, src: WORKIMG2, path: '/projectdetail2' },
-    { id: 3, src: WORKIMG3, path: '/projectdetail3' },
+    { id: 1, src: PROJECTIMG1, path: '/fithub' },
+    { id: 2, src: PROJECTIMG2, path: '/digiadgenda' },
+    { id: 3, src: PROJECTIMG3, path: '/museshop' },
+    { id: 3, src: PROJECTIMG4, path: '/rockarthub' },
   ];
 
   return (
@@ -69,7 +72,7 @@ function Home() {
           <button className={classes.contactbutton}>
             <a
               className={classes.email}
-              href="mailto:shavaughan.j.watson@gmail.com"
+              href="https://calendly.com/shavjw/intro-call"
             >
               Contact Me!
             </a>

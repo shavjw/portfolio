@@ -60,13 +60,13 @@
 .projectLinks {
   display: flex;
   list-style: none;
-  justify-content: center;
-  margin-top: 12px;
-  gap: 35px;
+  justify-content: space-between;
+  margin-top: 26px;
+  overflow: auto;
 }
 
 .project {
-  width: 33%;
+  width: 25%;
 }
 
 .projectimg {
