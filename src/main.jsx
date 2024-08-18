@@ -35,10 +35,7 @@ const router = createBrowserRouter([
         path: '/museshop',
         element: <ProjectDetail3 />,
       },
-      {
-        path: '/rockarthub',
-        element: <ProjectDetail4 />,
-      },
+
     ],
   },
 ]);

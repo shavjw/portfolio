@@ -1,11 +1,9 @@
 import { Link } from 'react-router-dom';
-
 import classes from './home.module.css';
 import INTROPIC from './assets/imgs/edited/intro_pic_2.webp';
 import PROJECTIMG1 from './assets/imgs/edited/work_img_1.webp';
 import PROJECTIMG2 from './assets/imgs/edited/work_img_2.webp';
 import PROJECTIMG3 from './assets/imgs/edited/work_img_4.webp';
-import PROJECTIMG4 from './assets/imgs/edited/work_img_9.png';
 
 import CONTACTPIC from './assets/imgs/edited/contact_pic.webp';
 
@@ -14,7 +12,6 @@ function Home() {
     { id: 1, src: PROJECTIMG1, path: '/fithub' },
     { id: 2, src: PROJECTIMG2, path: '/digiadgenda' },
     { id: 3, src: PROJECTIMG3, path: '/museshop' },
-    { id: 3, src: PROJECTIMG4, path: '/rockarthub' },
   ];
 
   return (
