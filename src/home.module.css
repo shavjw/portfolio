@@ -62,8 +62,6 @@
   list-style: none;
   justify-content: space-between;
   margin-top: 26px;
-  overflow: hidden;
-  overflow-x: scroll; /* Ensure that the scroll functionality remains */
 }
 
 .project {
